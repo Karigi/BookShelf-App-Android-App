@@ -1,5 +1,6 @@
 package com.example.bookshelfapp.ui.navigation
 
+import android.util.Log
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.runtime.Composable
@@ -9,7 +10,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.example.bookshelfapp.BuildConfig
 import com.example.bookshelfapp.utils.BookShelfContentType
+
 
 
 private const val TAG = "NavGraph"

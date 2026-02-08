@@ -7,6 +7,8 @@ plugins {
     alias(libs.plugins.kotlin.serialization) apply false
     alias(libs.plugins.ksp) apply false
     alias(libs.plugins.hilt.android) apply false
+    // Secrets Gradle Plugin
+    alias(libs.plugins.secrets) apply false
 }
 
 tasks.register<Delete>("clean") {
